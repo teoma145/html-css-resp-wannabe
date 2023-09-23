@@ -129,10 +129,10 @@ img {
  ************************************************/
 @media screen and (max-width: 768px){
     .container{
-        max-width:calc(100vw - 65px);
+        width:calc(100% - 25px);
     }
      .row{
-        max-width:calc(100vw - 25px) ;
+        width:calc(100% - 25px) ;
     }
      body{
         font-size: 90%;
@@ -141,7 +141,7 @@ img {
 @media screen and (max-width: 480px){
     
      .row{
-        max-width:calc(100vw - 25px) ;
+        width:calc(100% - 25px) ;
         flex-direction: column;
         padding: 0;
         margin: 0 auto;
@@ -149,7 +149,7 @@ img {
         
     }
      body{
-        font-size: 80%;
+        font-size: 100%;
     }
     .why-us{
         background-color: black;
@@ -160,23 +160,24 @@ img {
         width:100%;
         margin-bottom: 40px;
         
-    }
-    img{
-        min-width:80%;
-        margin-bottom: 40px;
         
     }
-    .card{
-        width:calc(100vw - 100px);
-        
+   .lessons .card{
+        width: 250%;
     }
-    .col-left{
-        
+    .steps .card{
+        width:400%;
         margin: 0 auto;
-    }
-    .col-right{
+       
         
-        margin: 0 auto;
     }
+    .why-us .col-left {
+    width: 100%;
+    }
+    .why-us .col-right {
+    width: 100%;
 }
+    
+}
+
    
